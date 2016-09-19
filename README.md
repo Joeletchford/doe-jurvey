@@ -1,8 +1,6 @@
-# inclasstest
+# in class assignment
 
-This is Daniel's super cool new site
+make multiple push pull on the forked repo
 
-# WOW SO COOL BIKE GUY
-##Maybe one day we could be frinds
-
-"probably not"
+merge request
+-make some changes
