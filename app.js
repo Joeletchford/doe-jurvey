@@ -6,7 +6,7 @@
 
 $(document).ready(function () {
     setTimeout(function(){
-        $( ".chat-body").append("<h1>Hey Daniel! How was school today?</h1>").fadeIn(500);
+        $( ".chat-body").append("<h1>YYooooo! How was class today?</h1>").fadeIn(500);
         $(document).ready(function () {
                   var joeIM = document.createElement('audio');
                   joeIM.setAttribute('src', 'sounds/ReceiveIM.wav');
@@ -41,7 +41,7 @@ $(document).ready(function () {
 
 $(document).ready(function () {
     setTimeout(function(){
-        $( ".chat-body").append("<h1>mannnn Ben's class is super rough! Coding can take a lap.</h1>").fadeIn(500);
+        $( ".chat-body").append("<h1>mannnn Ben's class is super rough! I dont know if pain will really make it real.</h1>").fadeIn(500);
         $(document).ready(function () {
                   var joeIM = document.createElement('audio');
                   joeIM.setAttribute('src', 'sounds/ReceiveIM.wav');
@@ -70,43 +70,9 @@ $(document).ready(function () {
         }, true);
         });
         $(".chat-body").scrollTop($('.chat-body').height())
-    }, 10000);
+    }, 12000);
 });
 
-
-$(document).ready(function () {
-    setTimeout(function(){
-        $( ".chat-body").append( "<h2>💩</h2>" ).fadeIn(500);
-        $(document).ready(function() {
-          var danielIM = document.createElement('audio');
-          danielIM.setAttribute('src', 'sounds/SendIM.wav');
-          danielIM.setAttribute('autoplay', 'autoplay');
-          //audioElement.load()
-          $.get();
-          danielIM.addEventListener(".chat-body", function() {
-          danielIM.play();
-        }, true);
-        });
-        $(".chat-body").scrollTop($('.chat-body').height())
-    }, 13000);
-});
-
-$(document).ready(function () {
-    setTimeout(function(){
-        $( ".chat-body").append( "<h2>💩</h2>" ).fadeIn(500);
-        $(document).ready(function() {
-          var danielIM = document.createElement('audio');
-          danielIM.setAttribute('src', 'sounds/SendIM.wav');
-          danielIM.setAttribute('autoplay', 'autoplay');
-          //audioElement.load()
-          $.get();
-          danielIM.addEventListener(".chat-body", function() {
-          danielIM.play();
-        }, true);
-        });
-        $(".chat-body").scrollTop($('.chat-body').height())
-    }, 13500);
-});
 
 $(document).ready(function () {
     setTimeout(function(){
@@ -123,4 +89,55 @@ $(document).ready(function () {
         });
         $(".chat-body").scrollTop($('.chat-body').height())
     }, 14000);
+});
+
+$(document).ready(function () {
+    setTimeout(function(){
+        $( ".chat-body").append( "<h2>💩</h2>" ).fadeIn(500);
+        $(document).ready(function() {
+          var danielIM = document.createElement('audio');
+          danielIM.setAttribute('src', 'sounds/SendIM.wav');
+          danielIM.setAttribute('autoplay', 'autoplay');
+          //audioElement.load()
+          $.get();
+          danielIM.addEventListener(".chat-body", function() {
+          danielIM.play();
+        }, true);
+        });
+        $(".chat-body").scrollTop($('.chat-body').height())
+    }, 14500);
+});
+
+$(document).ready(function () {
+    setTimeout(function(){
+        $( ".chat-body").append( "<h2>💩</h2>" ).fadeIn(500);
+        $(document).ready(function() {
+          var danielIM = document.createElement('audio');
+          danielIM.setAttribute('src', 'sounds/SendIM.wav');
+          danielIM.setAttribute('autoplay', 'autoplay');
+          //audioElement.load()
+          $.get();
+          danielIM.addEventListener(".chat-body", function() {
+          danielIM.play();
+        }, true);
+        });
+        $(".chat-body").scrollTop($('.chat-body').height())
+    }, 15000);
+});
+
+$(document).ready(function () {
+    setTimeout(function(){
+        $( ".chat-body").append("<h1> I know how ya feel man maybe time will make it real</h1>").fadeIn(500);
+        $(document).ready(function () {
+                  var joeIM = document.createElement('audio');
+                  joeIM.setAttribute('src', 'sounds/ReceiveIM.wav');
+                  joeIM.setAttribute('autoplay', 'autoplay');
+                  //audioElement.load()
+                  $.get();
+                  joeIM.addEventListener(".chat-body", function() {
+                  joeIM.play();
+                  }, true);
+                });
+                      $(".chat-body").scrollTop($('.chat-body').height())
+    }, 18000);
 });
