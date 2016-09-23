@@ -21,43 +21,44 @@ html {
   align-content: center;
   margin: auto;
 background-color: #e6e6e6;
-border-top: 30px  solid #0000ff;
-border-left: 10px  solid #0000ff;
-border-right: 10px  solid #0000ff;
-border-bottom: 10px  solid #0000ff;
+border-top: 30px  solid blue;
+border-left: 10px  solid  blue;
+border-right: 10px  solid blue;
+border-bottom: 10px  solid blue;
 padding: 5px;
 width: 50vw; height: 75vh;
 /*margin: 1%;
    padding: 2%;*/
-   line-height: 1.8em;
-   font-size: 1.4em;
+   line-height: 1em;
+   font-size: 1em;
 }
 
 
 .chat-body{
   border-top: 2px solid black;
   border-left: 2px solid black;
+  padding-right: 5px;
 margin-bottom: 50px;
   order: 1;
 background-color: white;
 width: 100%; height: 50%;
-overflow: scroll;
+overflow: auto;;
 }
 
 h1 {
-margin-left: 30px;
-font-size: 20px;
+margin-left: 20px;
+font-size: 1em;
 color: blue;
 }
 
 h1:before {
-  content: 'Joe: ';
+  content: 'De_La_Joe.L1992: ';
   color: blue;
 }
 
 h2 {
-margin-left: 30px;
-font-size: 20px;
+margin-left: 20px;
+font-size: 1em;
 color: red;
 }
 
