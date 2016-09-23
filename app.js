@@ -88,41 +88,41 @@ $(document).ready(function () {
         }, true);
         });
         $(".chat-body").scrollTop($('.chat-body').height())
-    }, 14000);
-});
-
-$(document).ready(function () {
-    setTimeout(function(){
-        $( ".chat-body").append( "<h2>💩</h2>" ).fadeIn(500);
-        $(document).ready(function() {
-          var danielIM = document.createElement('audio');
-          danielIM.setAttribute('src', 'sounds/SendIM.wav');
-          danielIM.setAttribute('autoplay', 'autoplay');
-          //audioElement.load()
-          $.get();
-          danielIM.addEventListener(".chat-body", function() {
-          danielIM.play();
-        }, true);
-        });
-        $(".chat-body").scrollTop($('.chat-body').height())
-    }, 14500);
-});
-
-$(document).ready(function () {
-    setTimeout(function(){
-        $( ".chat-body").append( "<h2>💩</h2>" ).fadeIn(500);
-        $(document).ready(function() {
-          var danielIM = document.createElement('audio');
-          danielIM.setAttribute('src', 'sounds/SendIM.wav');
-          danielIM.setAttribute('autoplay', 'autoplay');
-          //audioElement.load()
-          $.get();
-          danielIM.addEventListener(".chat-body", function() {
-          danielIM.play();
-        }, true);
-        });
-        $(".chat-body").scrollTop($('.chat-body').height())
     }, 15000);
+});
+
+$(document).ready(function () {
+    setTimeout(function(){
+        $( ".chat-body").append( "<h2>💩</h2>" ).fadeIn(500);
+        $(document).ready(function() {
+          var danielIM = document.createElement('audio');
+          danielIM.setAttribute('src', 'sounds/SendIM.wav');
+          danielIM.setAttribute('autoplay', 'autoplay');
+          //audioElement.load()
+          $.get();
+          danielIM.addEventListener(".chat-body", function() {
+          danielIM.play();
+        }, true);
+        });
+        $(".chat-body").scrollTop($('.chat-body').height())
+    }, 15500);
+});
+
+$(document).ready(function () {
+    setTimeout(function(){
+        $( ".chat-body").append( "<h2>💩</h2>" ).fadeIn(500);
+        $(document).ready(function() {
+          var danielIM = document.createElement('audio');
+          danielIM.setAttribute('src', 'sounds/SendIM.wav');
+          danielIM.setAttribute('autoplay', 'autoplay');
+          //audioElement.load()
+          $.get();
+          danielIM.addEventListener(".chat-body", function() {
+          danielIM.play();
+        }, true);
+        });
+        $(".chat-body").scrollTop($('.chat-body').height())
+    }, 16000);
 });
 
 $(document).ready(function () {
@@ -140,4 +140,21 @@ $(document).ready(function () {
                 });
                       $(".chat-body").scrollTop($('.chat-body').height())
     }, 18000);
+});
+
+$(document).ready(function () {
+    setTimeout(function(){
+        $( ".chat-body").append( "<h2>you ever done weed?</h2>" ).fadeIn(500);
+        $(document).ready(function() {
+          var danielIM = document.createElement('audio');
+          danielIM.setAttribute('src', 'sounds/SendIM.wav');
+          danielIM.setAttribute('autoplay', 'autoplay');
+          //audioElement.load()
+          $.get();
+          danielIM.addEventListener(".chat-body", function() {
+          danielIM.play();
+        }, true);
+        });
+        $(".chat-body").scrollTop($('.chat-body').height())
+    }, 22000);
 });
