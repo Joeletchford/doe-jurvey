@@ -13,7 +13,6 @@ html {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-
 }
 
 .aol{
@@ -32,7 +31,7 @@ width: 50vw; height: 75vh;
    padding: 2%;*/
    line-height: 1.8em;
    font-size: 1.4em;
-  /*overflow: scroll;*/}
+}
 
 
 .chat-body{
@@ -42,7 +41,29 @@ margin-bottom: 50px;
   order: 1;
 background-color: white;
 width: 100%; height: 50%;
+overflow: scroll;
+}
 
+h1 {
+margin-left: 30px;
+font-size: 20px;
+color: blue;
+}
+
+h1:before {
+  content: 'Joe: ';
+  color: blue;
+}
+
+h2 {
+margin-left: 30px;
+font-size: 20px;
+color: red;
+}
+
+h2:before {
+  content: 'Daniel: ';
+  color: red;
 }
 
 .message-body{
